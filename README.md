@@ -42,63 +42,63 @@ This project demonstrates how to provision a Linux Virtual Machine on Microsoft 
 ### Step 1: Create the Virtual Machine
 Provisioned a new Linux Virtual Machine in the Azure Portal with the required configuration.
 
-![VM Deployed](Screenshots/project-2/cp2_vm_deployed.png)
+![VM Deployed](cp2_vm_deployed.png)
 
 ---
 
 ### Step 2: Configure Network Security Group (NSG)
 Added inbound security rules to allow web and remote access traffic (Port 22 for SSH and Port 80 for HTTP).
 
-![VM NSG Configuration](Screenshots/project-2/cp2_vm_NSG.png)
+![VM NSG Configuration](cp2_vm_NSG.png)
 
 ---
 
 ### Step 3: Connect via SSH
 Connected to the virtual machine remotely using PowerShell and verified the SSH name prompt match.
 
-![SSH Connection PowerShell](Screenshots/project-2/cp2_vm_sshtovm_powershell.png)
-![SSH Login OK](Screenshots/project-2/cp2_vm_sshlogin_ok.png)
-![SSH Name Prompt Match](Screenshots/project-2/cp2_ssh_namepromptmatch.png)
+![SSH Connection PowerShell](cp2_vm_sshtovm_powershell.png)
+![SSH Login OK](cp2_vm_sshlogin_ok.png)
+![SSH Name Prompt Match](cp2_ssh_namepromptmatch.png)
 
 ---
 
 ### Step 4: Update Package Lists and Install Apache
 Updated the local package manager and installed the Apache2 web server on the Ubuntu server.
 
-![Package List Update 1](Screenshots/project-2/cp2_vm_%20package%20list_update.png)
-![Package List Update 2](Screenshots/project-2/cp2_vm_%20package%20list_update_2.png)
-![Apache Update 1](Screenshots/project-2/cp2_vm_apacheupdate.png)
-![Apache Update 2](Screenshots/project-2/cp2_vm_apacheupdate_2.png)
-![Apache Update 3](Screenshots/project-2/cp2_vm_apacheupdate_3.png)
+![Package List Update 1](cp2_vm_%20package%20list_update.png)
+![Package List Update 2](cp2_vm_%20package%20list_update_2.png)
+![Apache Update 1](cp2_vm_apacheupdate.png)
+![Apache Update 2](cp2_vm_apacheupdate_2.png)
+![Apache Update 3](cp2_vm_apacheupdate_3.png)
 
 ---
 
 ### Step 5: Verify Apache is Running
 Validated that the Apache service status was active and running.
 
-![Apache Validate](Screenshots/project-2/cp2_vm_apachevalidate.png)
+![Apache Validate](cp2_vm_apachevalidate.png)
 
 ---
 
 ### Step 6: Verify Default Apache Page
 Opened a browser and navigated to the server's public IP address to view the default Ubuntu page.
 
-![Apache Ubuntu Default Page](Screenshots/project-2/cp2_vm_apache_ubuntu_defaultpage.png)
+![Apache Ubuntu Default Page](cp2_vm_apache_ubuntu_defaultpage.png)
 
 ---
 
 ### Step 7: Deploy Custom HTML Page
 Used custom HTML commands and terminal editing to replace the default page.
 
-![Custom HTML Command](Screenshots/project-2/cp_2_%20Custom%20HTML%20Command.png)
-![VM Validation Pass](Screenshots/project-2/cp2_vm_validationpass.png)
+![Custom HTML Command](cp_2_%20Custom%20HTML%20Command.png)
+![VM Validation Pass](cp2_vm_validationpass.png)
 
 ---
 
 ### Step 8: Confirm Live Custom Website
 Refreshed the browser to confirm the custom web application rendered successfully.
 
-![Live Custom Website](Screenshots/project-2/cp2_Live%20Custom%20Website.png)
+![Live Custom Website](cp2_Live%20Custom%20Website.png)
 
 ---
 
@@ -112,21 +112,21 @@ A fully functional Linux web server running on Microsoft Azure now serves a cust
 
 Here is the complete master list of all 15 project screenshots formatted for your repository:
 
-![Live Custom Website](Screenshots/project-2/cp2_Live%20Custom%20Website.png)
-![SSH Name Prompt Match](Screenshots/project-2/cp2_ssh_namepromptmatch.png)
-![Package List Update](Screenshots/project-2/cp2_vm_%20package%20list_update.png)
-![Package List Update 2](Screenshots/project-2/cp2_vm_%20package%20list_update_2.png)
-![VM NSG](Screenshots/project-2/cp2_vm_NSG.png)
-![Apache Ubuntu Default Page](Screenshots/project-2/cp2_vm_apache_ubuntu_defaultpage.png)
-![Apache Update](Screenshots/project-2/cp2_vm_apacheupdate.png)
-![Apache Update 2](Screenshots/project-2/cp2_vm_apacheupdate_2.png)
-![Apache Update 3](Screenshots/project-2/cp2_vm_apacheupdate_3.png)
-![Apache Validate](Screenshots/project-2/cp2_vm_apachevalidate.png)
-![VM Deployed](Screenshots/project-2/cp2_vm_deployed.png)
-![SSH Login OK](Screenshots/project-2/cp2_vm_sshlogin_ok.png)
-![SSH to VM PowerShell](Screenshots/project-2/cp2_vm_sshtovm_powershell.png)
-![VM Validation Pass](Screenshots/project-2/cp2_vm_validationpass.png)
-![Custom HTML Command](Screenshots/project-2/cp_2_%20Custom%20HTML%20Command.png)
+![Live Custom Website](cp2_Live%20Custom%20Website.png)
+![SSH Name Prompt Match](cp2_ssh_namepromptmatch.png)
+![Package List Update](cp2_vm_%20package%20list_update.png)
+![Package List Update 2](cp2_vm_%20package%20list_update_2.png)
+![VM NSG](cp2_vm_NSG.png)
+![Apache Ubuntu Default Page](cp2_vm_apache_ubuntu_defaultpage.png)
+![Apache Update](cp2_vm_apacheupdate.png)
+![Apache Update 2](cp2_vm_apacheupdate_2.png)
+![Apache Update 3](cp2_vm_apacheupdate_3.png)
+![Apache Validate](cp2_vm_apachevalidate.png)
+![VM Deployed](cp2_vm_deployed.png)
+![SSH Login OK](cp2_vm_sshlogin_ok.png)
+![SSH to VM PowerShell](cp2_vm_sshtovm_powershell.png)
+![VM Validation Pass](cp2_vm_validationpass.png)
+![Custom HTML Command](cp_2_%20Custom%20HTML%20Command.png)
 
 ---
 
